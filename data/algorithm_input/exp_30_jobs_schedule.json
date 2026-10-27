@@ -1,0 +1,2228 @@
+{
+    "horizon": 1450,
+    "period_start": "2026-10-5 12:00:00",
+    "machines": {
+        "OP1-MC1": {
+            "operation_id": "OP1",
+            "downtime": [
+                [
+                    600,
+                    1080
+                ]
+            ]
+        },
+        "OP1-MC2": {
+            "operation_id": "OP1",
+            "downtime": [
+                [
+                    600,
+                    1080
+                ]
+            ]
+        },
+        "OP1-MC3": {
+            "operation_id": "OP1",
+            "downtime": [
+                [
+                    600,
+                    1080
+                ]
+            ]
+        },
+        "OP2-MC1": {
+            "operation_id": "OP2",
+            "downtime": [
+                [
+                    600,
+                    1080
+                ]
+            ]
+        },
+        "OP2-MC2": {
+            "operation_id": "OP2",
+            "downtime": [
+                [
+                    600,
+                    1080
+                ]
+            ]
+        },
+        "OP2-MC3": {
+            "operation_id": "OP2",
+            "downtime": [
+                [
+                    600,
+                    1080
+                ]
+            ]
+        },
+        "OP3-MC1": {
+            "operation_id": "OP3",
+            "downtime": [
+                [
+                    600,
+                    1080
+                ]
+            ]
+        },
+        "OP3-MC2": {
+            "operation_id": "OP3",
+            "downtime": [
+                [
+                    600,
+                    1080
+                ]
+            ]
+        },
+        "OP3-MC3": {
+            "operation_id": "OP3",
+            "downtime": [
+                [
+                    600,
+                    1080
+                ]
+            ]
+        },
+        "OP4-MC1": {
+            "operation_id": "OP4",
+            "downtime": [
+                [
+                    600,
+                    1080
+                ]
+            ]
+        },
+        "OP4-MC2": {
+            "operation_id": "OP4",
+            "downtime": [
+                [
+                    600,
+                    1080
+                ]
+            ]
+        },
+        "OP4-MC3": {
+            "operation_id": "OP4",
+            "downtime": [
+                [
+                    600,
+                    1080
+                ]
+            ]
+        }
+    },
+    "break_times": {
+        "OP1": [
+            [
+                360,
+                365
+            ],
+            [
+                1320,
+                1325
+            ]
+        ],
+        "OP2": [
+            [
+                360,
+                365
+            ],
+            [
+                1320,
+                1325
+            ]
+        ],
+        "OP3": [
+            [
+                360,
+                365
+            ],
+            [
+                1320,
+                1325
+            ]
+        ],
+        "OP4": [
+            [
+                360,
+                365
+            ],
+            [
+                1320,
+                1325
+            ]
+        ]
+    },
+    "jobs": [
+        {
+            "job_code": "SO_Job_1",
+            "job_name": "Job 1",
+            "parent_code": "SO_Product_2",
+            "deadline": 1320,
+            "quantity": 8,
+            "operations": [
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 10
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 11
+                        }
+                    }
+                },
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 4
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                },
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_2",
+            "job_name": "Job 2",
+            "parent_code": "SO_Product_1",
+            "deadline": 1450,
+            "quantity": 5,
+            "operations": [
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 12
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_3",
+            "job_name": "Job 3",
+            "parent_code": "SO_Product_5",
+            "deadline": 1000,
+            "quantity": 6,
+            "operations": [
+                {
+                    "deadline": 1000,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1000,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                },
+                {
+                    "deadline": 1000,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1000,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_4",
+            "job_name": "Job 4",
+            "parent_code": "SO_Product_4",
+            "deadline": 1100,
+            "quantity": 10,
+            "operations": [
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 11
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 13
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 10
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_5",
+            "job_name": "Job 5",
+            "parent_code": "SO_Product_4",
+            "deadline": 1100,
+            "quantity": 10,
+            "operations": [
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 11
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 13
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 10
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_6",
+            "job_name": "Job 6",
+            "parent_code": "SO_Product_3",
+            "deadline": 1200,
+            "quantity": 3,
+            "operations": [
+                {
+                    "deadline": 1200,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 8
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 10
+                        }
+                    }
+                },
+                {
+                    "deadline": 1200,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 5
+                        }
+                    }
+                },
+                {
+                    "deadline": 1200,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                },
+                {
+                    "deadline": 1200,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 3
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 4
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_7",
+            "job_name": "Job 7",
+            "parent_code": "SO_Product_2",
+            "deadline": 1320,
+            "quantity": 8,
+            "operations": [
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 10
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 11
+                        }
+                    }
+                },
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 4
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                },
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_8",
+            "job_name": "Job 8",
+            "parent_code": "SO_Product_9",
+            "deadline": 1250,
+            "quantity": 9,
+            "operations": [
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 11
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                },
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_9",
+            "job_name": "Job 9",
+            "parent_code": "SO_Product_2",
+            "deadline": 1320,
+            "quantity": 8,
+            "operations": [
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 10
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 11
+                        }
+                    }
+                },
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 4
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                },
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_10",
+            "job_name": "Job 10",
+            "parent_code": "SO_Product_10",
+            "deadline": 650,
+            "quantity": 5,
+            "operations": [
+                {
+                    "deadline": 650,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 10
+                        }
+                    }
+                },
+                {
+                    "deadline": 650,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                },
+                {
+                    "deadline": 650,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 650,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_11",
+            "job_name": "Job 11",
+            "parent_code": "SO_Product_7",
+            "deadline": 1400,
+            "quantity": 12,
+            "operations": [
+                {
+                    "deadline": 1400,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 12
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 10
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 14
+                        }
+                    }
+                },
+                {
+                    "deadline": 1400,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 10
+                        }
+                    }
+                },
+                {
+                    "deadline": 1400,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 9
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 8
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 11
+                        }
+                    }
+                },
+                {
+                    "deadline": 1400,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_12",
+            "job_name": "Job 12",
+            "parent_code": "SO_Product_1",
+            "deadline": 1450,
+            "quantity": 5,
+            "operations": [
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 12
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_13",
+            "job_name": "Job 13",
+            "parent_code": "SO_Product_1",
+            "deadline": 1450,
+            "quantity": 5,
+            "operations": [
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 12
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_14",
+            "job_name": "Job 14",
+            "parent_code": "SO_Product_2",
+            "deadline": 1320,
+            "quantity": 8,
+            "operations": [
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 10
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 11
+                        }
+                    }
+                },
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 4
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                },
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1320,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_15",
+            "job_name": "Job 15",
+            "parent_code": "SO_Product_4",
+            "deadline": 1100,
+            "quantity": 10,
+            "operations": [
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 11
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 13
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 10
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_16",
+            "job_name": "Job 16",
+            "parent_code": "SO_Product_4",
+            "deadline": 1100,
+            "quantity": 10,
+            "operations": [
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 11
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 13
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 10
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_17",
+            "job_name": "Job 17",
+            "parent_code": "SO_Product_9",
+            "deadline": 1250,
+            "quantity": 9,
+            "operations": [
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 11
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                },
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_18",
+            "job_name": "Job 18",
+            "parent_code": "SO_Product_10",
+            "deadline": 650,
+            "quantity": 5,
+            "operations": [
+                {
+                    "deadline": 650,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 10
+                        }
+                    }
+                },
+                {
+                    "deadline": 650,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                },
+                {
+                    "deadline": 650,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 650,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_19",
+            "job_name": "Job 19",
+            "parent_code": "SO_Product_1",
+            "deadline": 1450,
+            "quantity": 5,
+            "operations": [
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 12
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_20",
+            "job_name": "Job 20",
+            "parent_code": "SO_Product_9",
+            "deadline": 1250,
+            "quantity": 9,
+            "operations": [
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 11
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                },
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_21",
+            "job_name": "Job 21",
+            "parent_code": "SO_Product_4",
+            "deadline": 1100,
+            "quantity": 10,
+            "operations": [
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 11
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 13
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 10
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_22",
+            "job_name": "Job 22",
+            "parent_code": "SO_Product_9",
+            "deadline": 1250,
+            "quantity": 9,
+            "operations": [
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 11
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                },
+                {
+                    "deadline": 1250,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_23",
+            "job_name": "Job 23",
+            "parent_code": "SO_Product_7",
+            "deadline": 1400,
+            "quantity": 12,
+            "operations": [
+                {
+                    "deadline": 1400,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 12
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 10
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 14
+                        }
+                    }
+                },
+                {
+                    "deadline": 1400,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 10
+                        }
+                    }
+                },
+                {
+                    "deadline": 1400,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 9
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 8
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 11
+                        }
+                    }
+                },
+                {
+                    "deadline": 1400,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_24",
+            "job_name": "Job 24",
+            "parent_code": "SO_Product_4",
+            "deadline": 1100,
+            "quantity": 10,
+            "operations": [
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 11
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 13
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 10
+                        }
+                    }
+                },
+                {
+                    "deadline": 1100,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_25",
+            "job_name": "Job 25",
+            "parent_code": "SO_Product_8",
+            "deadline": 780,
+            "quantity": 7,
+            "operations": [
+                {
+                    "deadline": 780,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 11
+                        }
+                    }
+                },
+                {
+                    "deadline": 780,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 4
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                },
+                {
+                    "deadline": 780,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 780,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_26",
+            "job_name": "Job 26",
+            "parent_code": "SO_Product_10",
+            "deadline": 650,
+            "quantity": 5,
+            "operations": [
+                {
+                    "deadline": 650,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 10
+                        }
+                    }
+                },
+                {
+                    "deadline": 650,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                },
+                {
+                    "deadline": 650,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 650,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 7
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_27",
+            "job_name": "Job 27",
+            "parent_code": "SO_Product_5",
+            "deadline": 1000,
+            "quantity": 6,
+            "operations": [
+                {
+                    "deadline": 1000,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                },
+                {
+                    "deadline": 1000,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                },
+                {
+                    "deadline": 1000,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1000,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_28",
+            "job_name": "Job 28",
+            "parent_code": "SO_Product_1",
+            "deadline": 1450,
+            "quantity": 5,
+            "operations": [
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 9
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 12
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 8
+                        }
+                    }
+                },
+                {
+                    "deadline": 1450,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_29",
+            "job_name": "Job 29",
+            "parent_code": "SO_Product_3",
+            "deadline": 1200,
+            "quantity": 3,
+            "operations": [
+                {
+                    "deadline": 1200,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 6
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 8
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 10
+                        }
+                    }
+                },
+                {
+                    "deadline": 1200,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 4
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 5
+                        }
+                    }
+                },
+                {
+                    "deadline": 1200,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 5
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 6
+                        }
+                    }
+                },
+                {
+                    "deadline": 1200,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 3
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 5
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 4
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "job_code": "SO_Job_30",
+            "job_name": "Job 30",
+            "parent_code": "SO_Product_7",
+            "deadline": 1400,
+            "quantity": 12,
+            "operations": [
+                {
+                    "deadline": 1400,
+                    "operation_id": "OP1",
+                    "durations": {
+                        "OP1-MC1": {
+                            "unit_duration": 12
+                        },
+                        "OP1-MC2": {
+                            "unit_duration": 10
+                        },
+                        "OP1-MC3": {
+                            "unit_duration": 14
+                        }
+                    }
+                },
+                {
+                    "deadline": 1400,
+                    "operation_id": "OP2",
+                    "durations": {
+                        "OP2-MC1": {
+                            "unit_duration": 8
+                        },
+                        "OP2-MC2": {
+                            "unit_duration": 7
+                        },
+                        "OP2-MC3": {
+                            "unit_duration": 10
+                        }
+                    }
+                },
+                {
+                    "deadline": 1400,
+                    "operation_id": "OP3",
+                    "durations": {
+                        "OP3-MC1": {
+                            "unit_duration": 9
+                        },
+                        "OP3-MC2": {
+                            "unit_duration": 8
+                        },
+                        "OP3-MC3": {
+                            "unit_duration": 11
+                        }
+                    }
+                },
+                {
+                    "deadline": 1400,
+                    "operation_id": "OP4",
+                    "durations": {
+                        "OP4-MC1": {
+                            "unit_duration": 7
+                        },
+                        "OP4-MC2": {
+                            "unit_duration": 6
+                        },
+                        "OP4-MC3": {
+                            "unit_duration": 9
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
